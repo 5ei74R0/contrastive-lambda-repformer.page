@@ -45,90 +45,103 @@
 </head>
 
 <body>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById("summaryVideo");
+    video.currentTime = 1;
+  });
+</script>
+
+<!-- Hero -->
   <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Task Success Prediction for Open-Vocabulary Manipulation Based on Multi-Level Aligned Representations</h1>
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">Under Review</span>
-            </div>
-
-            <div class="column has-text-centered">
-              <div class="publication-links">
-                <!-- PDF Link. -->
-                <span class="link-block">
-                  <a href="" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                    </span>
-                    <span>Paper</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                    </span>
-                    <span>Supp.</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span>arXiv</span>
-                  </a>
-                </span>
-
-                <!-- Video Link. -->
-                <!-- <span class="link-block">
-                <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                </a>
-                </span> -->
-
-                <!-- Code Link. -->
-                <span class="link-block">
-                  <a href="" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-              </div>
-            </div>
-            <p>
-              Currently, the paper is under review. We will set the links as soon as the paper is published.
-              <br>
-              <b>At this moment, our code and additional report are provided as supplementary materials.</b>
-              <br>
-              <br>
-              <br>
-            </p>
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Task Success Prediction for Open-Vocabulary Manipulation Based on Multi-Level Aligned Representations</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Under Review</span>
           </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supp.</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Dataset Link. -->
+              <span class="link-block">
+              <a href=""
+                  class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fas fa-database"></i>
+                </span>
+                <span>Dataset</span>
+              </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+            </div>
+          </div>
+          <p>
+            Currently, the paper is under review. We will set the links as soon as the paper is published.
+            <br>
+            <b>At this moment, our code and additional report are provided as supplementary materials.</b>
+            <br>
+            <br>
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="hero teaser">
-    <div class="container is-max-desktop">
-      <div class="hero-body">
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="summaryVideo" poster="" controls muted loop playsinline height="100%" style="border-radius: 15px;">
+        <source src="./static/videos/summary.mp4" type="video/mp4">
+      </video>
+        <br>
+        <br><br><br>
+        <br>
         <figure class="image">
           <img src="./static/images/eye-catch.png" alt="eye-catch.png" />
         </figure>
         <br>
         <h2 class="subtitle has-text-centered">
-          <b>Contrastive \(\boldsymbol \lambda\)-Repformer</b> performs task success prediction based on the multi-level aligned representations—<b>\(\boldsymbol \lambda\)-Representation</b>.
+          <b>Contrastive \(\boldsymbol \lambda\)-Repformer</b> performs task success prediction based on <br> the multi-level aligned representations—<b>\(\boldsymbol \lambda\)-Representation</b>.
         </h2>
       </div>
     </div>
