@@ -50,6 +50,12 @@
     var video = document.getElementById("summaryVideo");
     video.currentTime = 1;
   });
+  document.addEventListener('DOMContentLoaded', function() {
+    var videos = document.querySelectorAll('.fast-video');
+    videos.forEach(function(video) {
+      video.playbackRate = 8;
+    });
+  });
 </script>
 
 <!-- Hero -->
@@ -187,14 +193,14 @@
   <!-- zero-shot environment -->
   <section class="section">
     <div class="container is-max-desktop">
-      <h2 class="title is-3 has-text-centered">Zero-Shot Transfer</h2>
+      <h2 class="title is-3 has-text-centered">Zero-Shot Transfer (playback in x8)</h2>
       <!-- 1st row -->
       <div class="columns is-centered">
         <!-- 1 -->
         <div class="column" style="margin: auto;">
           <div class="card">
             <div class="card-image is-relative">
-              <video poster="" autoplay controls muted loop playsinline height="100%">
+              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
                 <source src="./static/videos/exp/episode_007.mov" type="video/mp4">
               </video>
             </div>
@@ -214,7 +220,7 @@
         <div class="column" style="margin: auto;">
           <div class="card">
             <div class="card-image is-relative">
-              <video poster="" autoplay controls muted loop playsinline height="100%">
+              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
                 <source src="./static/videos/exp/episode_018.mov" type="video/mp4">
               </video>
             </div>
@@ -234,7 +240,7 @@
         <div class="column" style="margin: auto;">
           <div class="card">
             <div class="card-image is-relative">
-              <video poster="" autoplay controls muted loop playsinline height="100%">
+              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
                 <source src="./static/videos/exp/episode_042.mov" type="video/mp4">
               </video>
             </div>
@@ -254,7 +260,7 @@
         <div class="column" style="margin: auto;">
           <div class="card">
             <div class="card-image is-relative">
-              <video poster="" autoplay controls muted loop playsinline height="100%">
+              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
                 <source src="./static/videos/exp/episode_054.mov" type="video/mp4">
               </video>
             </div>
@@ -279,7 +285,7 @@
         <div class="column" style="margin: auto;">
           <div class="card">
             <div class="card-image is-relative">
-              <video poster="" autoplay controls muted loop playsinline height="100%">
+              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
                 <source src="./static/videos/exp/episode_069.mov" type="video/mp4">
               </video>
             </div>
@@ -299,7 +305,7 @@
         <div class="column" style="margin: auto;">
           <div class="card">
             <div class="card-image is-relative">
-              <video poster="" autoplay controls muted loop playsinline height="100%">
+              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
                 <source src="./static/videos/exp/episode_083.mov" type="video/mp4">
               </video>
             </div>
@@ -319,7 +325,7 @@
         <div class="column" style="margin: auto;">
           <div class="card">
             <div class="card-image is-relative">
-              <video poster="" autoplay controls muted loop playsinline height="100%">
+              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
                 <source src="./static/videos/exp/episode_108.mov" type="video/mp4">
               </video>
             </div>
@@ -339,7 +345,7 @@
         <div class="column" style="margin: auto;">
           <div class="card">
             <div class="card-image is-relative">
-              <video poster="" autoplay controls muted loop playsinline height="100%">
+              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
                 <source src="./static/videos/exp/episode_086.mov" type="video/mp4">
               </video>
             </div>
