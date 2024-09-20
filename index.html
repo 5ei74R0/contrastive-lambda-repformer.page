@@ -194,171 +194,151 @@
   <section class="section">
     <div class="container is-max-desktop">
       <h2 class="title is-3 has-text-centered">Zero-Shot Transfer (playback in x8)</h2>
-      <!-- 1st row -->
-      <div class="columns is-centered">
+      <div class="grid-container">
         <!-- 1 -->
-        <div class="column" style="margin: auto;">
-          <div class="card">
-            <div class="card-image is-relative">
-              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/exp/episode_007.mov" type="video/mp4">
-              </video>
+        <div class="card" style="display: flex; flex-direction: column; align-items: center;">
+          <div class="card-image is-relative">
+            <video class="fast-video" poster="" autoplay controls muted loop playsinline style="max-width: 100%; height: auto;">
+              <source src="./static/videos/exp/episode_007.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
+            <div class="is-rounded has-background-success has-text-white is-inline-block p-1" style="width: 100%;">
+              <b>PREDICT "SUCCESS"</b>
             </div>
-            <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
-              <div class="is-rounded has-background-success has-text-white is-inline-block p-1" style="width: 100%;">
-                <b>PREDICT "SUCCESS"</b>
-              </div>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                Instruction: "place a mug in front of the banana"
-              </div>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              Instruction: "place a mug in front of the banana"
             </div>
           </div>
         </div>
         <!-- 2 -->
-        <div class="column" style="margin: auto;">
-          <div class="card">
-            <div class="card-image is-relative">
-              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/exp/episode_018.mov" type="video/mp4">
-              </video>
+        <div class="card" style="display: flex; flex-direction: column; align-items: center;">
+          <div class="card-image is-relative">
+            <video class="fast-video" poster="" autoplay controls muted loop playsinline style="max-width: 100%; height: auto;">
+              <source src="./static/videos/exp/episode_018.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
+            <div class="is-rounded has-background-danger has-text-white is-inline-block p-1" style="width: 100%;">
+              <b>PREDICT "FAILURE"</b>
             </div>
-            <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
-              <div class="is-rounded has-background-danger has-text-white is-inline-block p-1" style="width: 100%;">
-                <b>PREDICT "FAILURE"</b>
-              </div>
-            </div>
-            <div class="card-content">
-              <div class="has-text-justified">
-                Instruction: "place a chips can in front of the red round can"
-              </div>
+          </div>
+          <div class="card-content">
+            <div class="has-text-justified">
+              Instruction: "place a chips can in front of the red round can"
             </div>
           </div>
         </div>
         <!-- 3 -->
-        <div class="column" style="margin: auto;">
-          <div class="card">
-            <div class="card-image is-relative">
-              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/exp/episode_042.mov" type="video/mp4">
-              </video>
+        <div class="card" style="display: flex; flex-direction: column; align-items: center;">
+          <div class="card-image is-relative">
+            <video class="fast-video" poster="" autoplay controls muted loop playsinline style="max-width: 100%; height: auto;">
+              <source src="./static/videos/exp/episode_042.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
+            <div class="is-rounded has-background-success has-text-white is-inline-block p-1" style="width: 100%;">
+              <b>PREDICT "SUCCESS"</b>
             </div>
-            <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
-              <div class="is-rounded has-background-success has-text-white is-inline-block p-1" style="width: 100%;">
-                <b>PREDICT "SUCCESS"</b>
-              </div>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                Instruction: "pick the yellow bottle at the back right"
-              </div>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              Instruction: "pick the yellow bottle at the back right"
             </div>
           </div>
         </div>
         <!-- 4 -->
-        <div class="column" style="margin: auto;">
-          <div class="card">
-            <div class="card-image is-relative">
-              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/exp/episode_054.mov" type="video/mp4">
-              </video>
+        <div class="card" style="display: flex; flex-direction: column; align-items: center;">
+          <div class="card-image is-relative">
+            <video class="fast-video" poster="" autoplay controls muted loop playsinline style="max-width: 100%; height: auto;">
+              <source src="./static/videos/exp/episode_054.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
+            <div class="is-rounded has-background-danger has-text-white is-inline-block p-1" style="width: 100%;">
+              <b>PREDICT "FAILURE"</b>
             </div>
-            <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
-              <div class="is-rounded has-background-danger has-text-white is-inline-block p-1" style="width: 100%;">
-                <b>PREDICT "FAILURE"</b>
-              </div>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                Instruction: "pick the blue spam can"
-                <br>
-                &nbsp;
-              </div>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              Instruction: "pick the blue spam can"
+              <br>
+              &nbsp;
             </div>
           </div>
         </div>
-      </div>
-      <!-- 2nd row -->
-      <div class="columns is-centered">
-        <!-- 1 -->
-        <div class="column" style="margin: auto;">
-          <div class="card">
-            <div class="card-image is-relative">
-              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/exp/episode_069.mov" type="video/mp4">
-              </video>
+        <!-- 5 -->
+        <div class="card" style="display: flex; flex-direction: column; align-items: center;">
+          <div class="card-image is-relative">
+            <video class="fast-video" poster="" autoplay controls muted loop playsinline style="max-width: 100%; height: auto;">
+              <source src="./static/videos/exp/episode_069.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
+            <div class="is-rounded has-background-success has-text-white is-inline-block p-1" style="width: 100%;">
+              <b>PREDICT "SUCCESS"</b>
             </div>
-            <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
-              <div class="is-rounded has-background-success has-text-white is-inline-block p-1" style="width: 100%;">
-                <b>PREDICT "SUCCESS"</b>
-              </div>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                Instruction: "move the purple small cup close to the light blue cup"
-              </div>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              Instruction: "move the purple small cup close to the light blue cup"
             </div>
           </div>
         </div>
-        <!-- 2 -->
-        <div class="column" style="margin: auto;">
-          <div class="card">
-            <div class="card-image is-relative">
-              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/exp/episode_083.mov" type="video/mp4">
-              </video>
+        <!-- 6 -->
+        <div class="card" style="display: flex; flex-direction: column; align-items: center;">
+          <div class="card-image is-relative">
+            <video class="fast-video" poster="" autoplay controls muted loop playsinline style="max-width: 100%; height: auto;">
+              <source src="./static/videos/exp/episode_083.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
+            <div class="is-rounded has-background-danger has-text-white is-inline-block p-1" style="width: 100%;">
+              <b>PREDICT "FAILURE"</b>
             </div>
-            <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
-              <div class="is-rounded has-background-danger has-text-white is-inline-block p-1" style="width: 100%;">
-                <b>PREDICT "FAILURE"</b>
-              </div>
-            </div>
-            <div class="card-content">
-              <div class="has-text-justified">
-                Instruction: "move the apple near by the banana"
-              </div>
+          </div>
+          <div class="card-content">
+            <div class="has-text-justified">
+              Instruction: "move the apple near by the banana"
             </div>
           </div>
         </div>
-        <!-- 3 -->
-        <div class="column" style="margin: auto;">
-          <div class="card">
-            <div class="card-image is-relative">
-              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/exp/episode_108.mov" type="video/mp4">
-              </video>
+        <!-- 7 -->
+        <div class="card" style="display: flex; flex-direction: column; align-items: center;">
+          <div class="card-image is-relative">
+            <video class="fast-video" poster="" autoplay controls muted loop playsinline style="max-width: 100%; height: auto;">
+              <source src="./static/videos/exp/episode_108.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
+            <div class="is-rounded has-background-success has-text-white is-inline-block p-1" style="width: 100%;">
+              <b>PREDICT "SUCCESS"</b>
             </div>
-            <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
-              <div class="is-rounded has-background-success has-text-white is-inline-block p-1" style="width: 100%;">
-                <b>PREDICT "SUCCESS"</b>
-              </div>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                Instruction: "move the blue can close to the soup can"
-              </div>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              Instruction: "move the blue can close to the soup can"
             </div>
           </div>
         </div>
-        <!-- 4 -->
-        <div class="column" style="margin: auto;">
-          <div class="card">
-            <div class="card-image is-relative">
-              <video class="fast-video" poster="" autoplay controls muted loop playsinline height="100%">
-                <source src="./static/videos/exp/episode_086.mov" type="video/mp4">
-              </video>
+        <!-- 8 -->
+        <div class="card" style="display: flex; flex-direction: column; align-items: center;">
+          <div class="card-image is-relative">
+            <video class="fast-video" poster="" autoplay controls muted loop playsinline style="max-width: 100%; height: auto;">
+              <source src="./static/videos/exp/episode_086.mov" type="video/mp4">
+            </video>
+          </div>
+          <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
+            <div class="is-rounded has-background-danger has-text-white is-inline-block p-1" style="width: 100%;">
+              <b>PREDICT "FAILURE"</b>
             </div>
-            <div class="is-overlay has-text-centered" style="padding-top: 1rem; margin-bottom: 150%;">
-              <div class="is-rounded has-background-danger has-text-white is-inline-block p-1" style="width: 100%;">
-                <b>PREDICT "FAILURE"</b>
-              </div>
-            </div>
-            <div class="card-content">
-              <div class="content">
-                Instruction: "move the rubik's cube near by the purple cup"
-                <br>
-              </div>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              Instruction: "move the rubik's cube near by the purple cup"
+              <br>
             </div>
           </div>
         </div>

@@ -171,3 +171,11 @@ body {
   font-weight: bold;
   margin-bottom: 5px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.grid-container .card {
+  width: 100%;
+}
